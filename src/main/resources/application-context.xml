@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+
+    <!--<bean id="message" class="Message">
+        <property name="message" value="My first spring application" />
+    </bean>
+
+    <bean id="country" class="Country" >
+        <property name="countryName" value="India"/>
+    </bean>
+
+    <bean id="capital" class="Capital" >
+        <property name="capitalName" value="Delhi"/>
+    </bean>-->
+
+  <!--  <bean id="heartObject" class="Heart"/>
+    <bean id="human" class="Human" >
+    </bean>-->
+
+   <!-- <bean id="heartObject" class="Heart"/>
+    <bean id="humanObject" class="Human">
+        <constructor-arg ref="heartObject"></constructor-arg>
+    </bean>
+
+    <bean id="happyFortuneServiceObject" class="HappyFortuneService"/>
+    <bean id="trackCoachObject" class="TrackCoach">
+        <property name="happyFortuneService" ref="happyFortuneServiceObject"/>
+        <property name="email" value="example.testing.com"/>
+        <property name="team" value="sunrisers hyderabad"/>
+    </bean>-->
+
+    <bean id="messageObject" class="Message" scope="singleton">
+        <property name="message" value="HelloWorld"></property>
+    </bean>
+
+</beans>
