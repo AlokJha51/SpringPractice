@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [10/May/2020:08:37:18 +0530] "GET /spring4/hello HTTP/1.1" 200 380 http-bio-8080-exec-1 606
+0:0:0:0:0:0:0:1 - - [10/May/2020:08:37:18 +0530] "GET /spring4/resources/css/style.css;jsessionid=EE737A2A695D36B4C9698FA0B1A9ED39 HTTP/1.1" 200 36 http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [10/May/2020:08:37:18 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [10/May/2020:08:37:20 +0530] "GET /spring4/student/showForm HTTP/1.1" 200 731 http-bio-8080-exec-5 89
+0:0:0:0:0:0:0:1 - - [10/May/2020:08:37:25 +0530] "GET /spring4/student/processForm?firstName=Alok&lastName=heineken1202 HTTP/1.1" 200 276 http-bio-8080-exec-6 48
